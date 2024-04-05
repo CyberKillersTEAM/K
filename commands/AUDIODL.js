@@ -75,8 +75,8 @@ if (text.startsWith("https://youtube.com/shorts/")) {
         }
     )
 cmd({
-            pattern: "1.1",
-            react: "",
+            pattern: "1",
+            react: "🔥",
             alias :[],
             desc: "",
             category: "downloader",
