@@ -47,11 +47,11 @@ cmd({
 
 *⦁──🎃𝙎𝙀𝙏𝙏𝙄𝙉𝙂 𝙇𝙄𝙎𝙏📍──⦁*
 
-1♻️➣ To put Antilink type :
-Eg:- .setvar ANTILINK:false
+*⚙️ ❶ ➢ Tᴏ Sᴇᴛ AɴᴛɪLɪɴᴋ Tʏᴘᴇ :*
+Eg:- ${prefix}setvar ANTILINK:false
 
 2♻️➣ To on/off Auto reaction type :
-Eg:- .setvar AUTO_REACTION:false/true
+Eg:- #{prefix}setvar AUTO_REACTION:false/true
 
 3♻️➣ To on/off Auto read status type : 
 Eg:- .setvar AUTO_READ_STATUS:false/true
