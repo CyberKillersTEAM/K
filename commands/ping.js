@@ -24,6 +24,6 @@ Secktor.cmd({
         const { key } = await Void.sendMessage(citel.chat, {text: '```Testing Ping```'});
         var final = new Date().getTime();
        // await Secktor.sleep(1000)
-       return await Void.sendMessage(citel.chat, {text: '*Pɪɴɢ : ' + (final - inital) + ' Mꜱ* ', edit: key});
+       return await Void.sendMessage(citel.chat, {text: '*🎈Pɪɴɢ : ' + (final - inital) + ' Mꜱ* \n\n*⦁ ʟᴇᴏ - ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ ⦁*', edit: key});
     }
 );
