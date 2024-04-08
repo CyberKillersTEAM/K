@@ -931,9 +931,9 @@ cmd({
             for (let i of anu) {
                 let metadata = await Void.groupMetadata(i);
                 await sleep(500)
-                jackhuh += `*Gʀᴏᴜᴘ :*\n${metadata.subject}\n`
-                jackhuh += `*Nᴜᴍʙᴇʀ Oꜰ Mᴇᴍʙᴇʀꜱ :*\n${metadata.participants.length}\n`
-                jackhuh += `*Jɪᴅ :*\n${i}\n\n*⦁ ʟᴇᴏ - ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ ⦁*`
+                jackhuh += `*Gʀᴏᴜᴘ :* ${metadata.subject}\n`
+                jackhuh += `*Nᴜᴍʙᴇʀ Oꜰ Mᴇᴍʙᴇʀꜱ :* ${metadata.participants.length}\n`
+                jackhuh += `*Jɪᴅ :*/n${i}\n\n*⦁ ʟᴇᴏ - ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ ⦁*`
 
             }
             citel.reply(jackhuh)
