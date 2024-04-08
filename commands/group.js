@@ -933,7 +933,7 @@ cmd({
                 await sleep(500)
                 jackhuh += `*Gʀᴏᴜᴘ :* ${metadata.subject}\n`
                 jackhuh += `*Nᴜᴍʙᴇʀ Oꜰ Mᴇᴍʙᴇʀꜱ :* ${metadata.participants.length}\n`
-                jackhuh += `*Jɪᴅ :*/n${i}\n\n*⦁ ʟᴇᴏ - ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ ⦁*`
+                jackhuh += `*Jɪᴅ :*/n ${i}\n\n*⦁ ʟᴇᴏ - ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ ⦁*`
 
             }
             citel.reply(jackhuh)
