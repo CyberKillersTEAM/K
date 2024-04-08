@@ -301,7 +301,7 @@ cmd({
     async(Void, citel, text,{ isCreator }) => 
     {	
         if (!citel.isGroup) return citel.reply(tlang().group);
-	if(!text) return await citel.reply("*Please give me Country Code.*\n*Example : ${prefix}kik 94*")
+	if(!text) return await citel.reply("*Please give me Country Code.*\n*Example : .kik 94*")
         const groupMetadata = citel.isGroup ? await Void.groupMetadata(citel.chat).catch((e) => {}) : "";
 	const groupAdmins = await getAdmin(Void, citel)
         let isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) :  false  ;
@@ -342,7 +342,7 @@ cmd({
     async(Void, citel, text,{ isCreator }) => 
     {	
         if (!citel.isGroup) return citel.reply(tlang().group);
-	if(!text) return await citel.reply("*Please give me a Country Code.*\n*Example: ${prefix}num 94*")
+	if(!text) return await citel.reply("*Please give me a Country Code.*\n*Example: num 94*")
         const groupMetadata = citel.isGroup ? await Void.groupMetadata(citel.chat).catch((e) => {}) : "";
 	const groupAdmins = await getAdmin(Void, citel)
         const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) :  false  ;
@@ -1122,13 +1122,13 @@ cmd({ on: "text" }, async(Void, citel) => {
                 },
                 caption: `
 ╔
-║ *Wow,Someone just*
-║ *leveled Up huh🔥*
-║ *👤Name*: ${citel.pushName}
-║ *⚡Level*: ${sck1.level}🌀
-║ *💫Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
-║ *📍Role*: *${role}*
-║ *Enjoy🥳*
+║ *Wᴏᴡ, ꜱᴏᴍᴇᴏɴᴇ ᴊᴜꜱᴛ*
+║ *Lᴇᴠᴇʟ ᴜᴘ 🔥*
+║ *👤Name :* ${citel.pushName}
+║ *⚡Level :* ${sck1.level}🌀
+║ *💫Exp :* ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
+║ *📍Role :* *${role}*
+║ *Enjoy 🥳*
 ╚
 `,
             }, {
